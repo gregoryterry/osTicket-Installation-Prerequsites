@@ -1,2 +1,2 @@
 # osTicket-Installation-Prerequisites
-This lab will demostrate how Wireshark monitors traffic on a computer or network.
+In This lab I will download and install the necessary pre-installation software programs required to install osTicket.
