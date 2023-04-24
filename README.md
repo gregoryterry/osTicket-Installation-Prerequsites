@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>osTicket Prerequisites Installation Steps</h2>
 
 <p>
-<img src="https://photos.google.com/album/AF1QipPIEFFBMSt3zE44Au8RyBfjfZrTiMr5R4wwdHXX" height="80%" width="80%" alt="Part 1 (Create Virtual Machine in Azure)"/>
+<img src="[Imgur](https://imgur.com/RGml0e6)" height="80%" width="80%" alt="Part 1 (Create Virtual Machine in Azure)"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
