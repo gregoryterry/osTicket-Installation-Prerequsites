@@ -82,7 +82,7 @@ Select review and create
 <img src="https://imgpile.com/images/h3Jv6N.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 
 
-<p> Part 2 (Install osTicket Prerequisites)
+<p> **Part 2 (Install osTicket Prerequisites)**
 <p>
 
 <p> On the osTicket VM, open search and search for “Turn Windows features on and off”
