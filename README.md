@@ -23,9 +23,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Part 1 (Create Virtual Machine in Azure)
 - Part 2 (Install osTicket Prerequisites)
-- Part 3 (Install osTicket)
-- Part 4 (osTicket Post Installation Setup)
-- Part 5 (Tickets and Ticket Lifecycle)
+- Part 3 (Configure IIS)
+- Part 4 (Install osTicket)
+- Part 5 (osTicket Post Installation Setup)
+- Part 6 (Tickets and Ticket Lifecycle)
 
 
 <h2>osTicket Prerequisites Installation Steps</h2>
@@ -136,10 +137,64 @@ Select review and create
 <p>
 
 <img src="https://imgpile.com/images/h3YbY1.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+<p>Execute > Finish 
+<p>
+<img src="https://imgpile.com/images/h3pU91.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://imgpile.com/images/h3pYcu.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+
+
+<h3>-Part 3 (Configure IIS)</h3
+
+<p>Open IIS as an Admin
+<p>
+ <img src="https://imgpile.com/images/h3p3Bo.pn" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
+ <p>Open PHP Manager
+<p>
+ <img src="https://imgpile.com/images/h3SIFu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+ 
+ <p>Register new PHP version
+ Browse to the PHP execution file (php-cgi.exe)
+Click on the server and select restart on the Actions pane
+<p>
+<img src="https://imgpile.com/images/h3SCFr.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<img src="https://imgpile.com/images/h3StJg.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<img src="https://imgpile.com/images/h3SxLc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<h3>-Part 4 (Install osTicket v1.15.8)</h3
+
+<p>download osTicket
+extract and copy the “upload” folder to “c:\inetpub\wwwroot”
+within c:\inetpub\wwwroot, rename “upload” to “osTicket”
+<p>
+<img src="https://imgpile.com/images/h3SEmh.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+<p>Copy the ‘upload’ folder to “c:\inetpub\wwwroot”
+<p>
+<img src="https://imgpile.com/images/h3ZnHW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p> 
+rename the folder to “osTicket”
+<p>
+<img src="https://imgpile.com/images/h3ZNgx.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+
+<p>Reload IIS (Open IIS, Stop and Start the server)
+<p>
+
+<p>Go to sites --> Default website  --> osTicket
+On the right, click “Browse *:80 (http)”
+<p>
+
+<p>If you see the following page in the web browser, osTicket was successfully installed.
+<p>
+
+
+
+
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
