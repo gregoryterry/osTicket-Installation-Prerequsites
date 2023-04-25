@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>osTicket Prerequisites Installation Steps</h2>
 
-<h4>Part 1 (Create Virtual Machine in Azure)</h4>
+<h3>Part 1 (Create Virtual Machine in Azure)</h3>
 
 <p> <img src="https://i.imgur.com/nnklcHH.png" height="60%" width="60%" alt="Part 1 (Create Virtual Machine in Azure)"/>
 <p>
@@ -82,7 +82,7 @@ Select review and create
 <p>
 <img src="https://imgpile.com/images/h3Jv6N.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 
-<h4>Part 2 (Install osTicket Prerequisites)</h4>
+<h3>Part 2 (Install osTicket Prerequisites)</h3>
 <p>
 
 <p> On the osTicket VM, open search and search for “Turn Windows features on and off”
