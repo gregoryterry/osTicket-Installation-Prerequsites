@@ -134,7 +134,8 @@ Select review and create
 
 <p> Enter username and root password for SQL: 
 <p>
-<img src="https://imgpile.com/images/h3YbY1.png" height="90" width="90" alt="Disk Sanitization Steps"/>
+
+<img src="https://imgpile.com/images/h3YbY1.png" height="80" width="80" alt="Disk Sanitization Steps"/>
 
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
