@@ -26,8 +26,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Part 3 (Configure IIS)
 - Part 4 (Install osTicket)
 - Part 5 (Download and HeidiSQL and install)
-- Part 6 (osTicket Post Installation Setup)
-- Part 7 (Tickets and Ticket Lifecycle)
 
 
 <h2>osTicket Prerequisites Installation Steps</h2>
