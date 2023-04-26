@@ -334,9 +334,10 @@ this is the admin login
 <p>
 <img src="https://imgpile.com/images/h6wdB8.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
+<p>In the next tutoral I will perform the proceedure for osTicket post installation configuration
+<p>
 
-<h3>Part 6 (osTicket Post Installation Setup) >/h3
 
-<img src="" height="70%" width="70%" alt="Disk Sanitization Steps"/>
-<img src="" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+
+
 
