@@ -35,11 +35,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p> <img src="https://i.imgur.com/nnklcHH.png" height="60%" width="60%" alt="Part 1 (Create Virtual Machine in Azure)"/>
 <p>
 
-<br />
-
-</p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/sODoms9.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
@@ -70,7 +65,8 @@ Select review and create
 
 <img src="https://imgpile.com/images/h3JbvW.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-<p> When validation passes, create.  Azure will display the components that are being created during deployment.
+<p> When validation passes, create.
+Azure will display the components that are being created during deployment.
 <p>
 <img src="https://imgpile.com/images/h3JJhS.md.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
@@ -78,22 +74,26 @@ Select review and create
 <p>
 <img src="https://imgpile.com/images/h3JQ9g.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 
-<p> Log on to the osTicket VM using the public IP address.  Use RDP to logon with the username and password of the osTicket VM.
+<p> Log on to the osTicket VM using the public IP address.
+Use RDP to logon with the username and password of the osTicket VM.
 <p>
 <img src="https://imgpile.com/images/h3Jv6N.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 
 <h3>Part 2 (Install osTicket Prerequisites)</h3>
-<p>
 
-<p> On the osTicket VM, open search and search for “Turn Windows features on and off”
+<p> On the osTicket VM, open search and search for
+<b>“Turn Windows features on and off”</b>
 <p>
 <img src="https://imgpile.com/images/h3Jjeo.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <p>
- <p> Select IIS, Internet Information Services > Expand down to CGI > World wide web > Application developer > check CGI select > ok
+ <p> Select IIS, Internet Information Services >
+ Expand down to CGI > World wide web > Application developer >
+ check CGI select > ok
 <p>
 <img src="https://imgpile.com/images/h3PTju.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
-<p> Test the Web Server by typing 127.0.0.1 in your web browser.  You should get the IIS page
+<p> Test the Web Server by typing 127.0.0.1 in your web browser.
+You should get the IIS page.
 <p>
 <img src="https://imgpile.com/images/h3PKuX.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
@@ -122,7 +122,8 @@ Select review and create
 <p>
 <img src="https://imgpile.com/images/h3P2XC.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 
-<p> select typical installation > select launch config wizard > Select standard configuration > install as Windows Service
+<p> select typical installation > select launch config wizard >
+Select standard configuration > install as Windows Service
 <p>
 <img src="https://imgpile.com/images/h3YIGr.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
@@ -188,7 +189,8 @@ On the right, click “Browse *:80 (http)”
 <p>
 <img src="https://imgpile.com/images/h67mjx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<p>If you see the following page in the web browser, osTicket was successfully installed.
+<p>If you see the following page in the web browser,
+osTicket was successfully installed.
 <p>
 <img src="https://imgpile.com/images/h67of8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
@@ -251,7 +253,8 @@ Select continue
 <img src="https://imgpile.com/images/h6NWkP.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
 <p>Fill out the  fields for “System Settings and "Admin User" 
-***** Do not install or fill out the Database section yet, HeidiSQL must be installed first.
+***** Do not install or fill out the Database section yet,
+HeidiSQL must be installed first.
 <p>
 <img src="https://imgpile.com/images/h6NFn1.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <img src="https://imgpile.com/images/h6Ngox.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
@@ -302,11 +305,13 @@ right-click Unnamed > Create new > Database
 <p>
 <img src="https://imgpile.com/images/h6UR0G.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>It’s time to clean up installation files, select the setup folder in the location below and delete it. 
+<p>It’s time to clean up installation files, select the setup folder
+in the location below and delete it. 
 <p>
 <img src="https://imgpile.com/images/h6UdxX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 
-<p>Set permissions to read-only for ‘ost-config.php’, located at “c>\inetpub\wwwroot\osTicket\include\ost-config.php”
+<p>Set permissions to read-only for ‘ost-config.php’,
+located at “c>\inetpub\wwwroot\osTicket\include\ost-config.php”
 right-click > properties > security > advanced
 <p>
 <img src="https://imgpile.com/images/h6Ulhj.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -332,7 +337,8 @@ this is the admin login
 <p>
 <img src="https://imgpile.com/images/h6wdB8.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 
-<p>In the next tutoral I will perform the proceedure for osTicket post installation configuration
+<p>In the next tutoral I will perform the proceedure
+for osTicket post installation configuration
 <p>
 
 
